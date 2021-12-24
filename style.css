@@ -1,313 +1,111 @@
 *{
     margin: 0;
-    padding: 0 ;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    padding: 0;
 }
-
-.head{
-    padding: 38px 0 61px 0;
-    min-height: 802px;
-    background: url("img/backgrounds/main_bg.png") center center/cover no-repeat;
+/*Хедер*/
+body{
+    font-family: 'Open Sans';
 }
 
 .container{
-    width: 1140px;
+    width: 1170px;
     margin: 0 auto;
 }
 
-.logo_img{
-    display: block;
-    margin: 0 auto;
-}
-
-.logo_text{
-    margin-top: 9.5px;
-    text-align: center;
-    font-size: 15px;
-    color: #fff;
-}
-
-h1{
-    text-align: center;
-    margin-top: 54px;
-    font-size: 41px;
-    font-weight: 900;
-    color: #F9BF3B;
-    text-transform: uppercase;
-}
-
-h2{
-    text-align: center;
-    margin-top: 20.5px;
-    font-size: 80px;
-    color: #fff;
-    text-transform: uppercase;
-}
-
-.down_text{
-    text-align: center;
-    margin: 20.5px auto 22.5px auto;
-    font-size: 41px;
-    font-weight: 900;
-    color: #F9BF3B;
-    text-transform: uppercase;
-}
-
-.header_text{
-    text-align: center;
-    color: #fff;
-    font-size: 21px;
-}
-
-.free{
-    color: #F9BF3B;
-}
-
-button{
-    display: block;
-    background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
-    width: 313px;
-    height: 72px;
-    text-transform: uppercase;
-    border: 0;
-    color: #fff;
-    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.22);
-    margin: 72px auto 70.5px auto;
-    cursor: pointer;
-    outline: none;
-    font-size: 21px;
-}
-
-.read_more{
-    color: #fff;
-    font-size: 15px;
-    text-transform: uppercase;
-    font-style: normal;
-    font-weight: 100;
-    text-align: center;
-}
-
-.wrap{
-    display: block;
-    margin: 4.49px auto;
-}
-
-.main_line{
+header{
     display: flex;
     justify-content: space-between;
-}
- 
-.line{
-    display: inline-block;
-    width: 292px;
-    height: 2px;
-    background: #fff;
-    margin-top: 60px;
+    align-items: center;
+    height: 100px;
 }
 
+.head_tittle{
+    display: flex;
+    justify-content: start;
+    font-family: 'Open Sans';
+    font-size: 21px;
+}
+
+nav{
+    font-family: 'Open Sans';
+    font-size: 20px;
+    
+}
+
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    width: 700px;
+}
+
+nav ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.search img{
+    width: 20px;
+    height: 20px;
+}
+/*Хедер конец*/
+
+/*Мейн*/
 .main{
-    background-color: #EFEFEF;
+    height: 640px;
+    background: url(img/backgrounds/main_bg.png) center center / cover no-repeat;
 }
 
 .main_inner{
     display: flex;
-    padding: 38px 0 61px 0;
-    min-height: 607px;
     flex-direction: column;
+    color: #FFF;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .main_tittle{
-    font-size: 30px;
-    text-transform: uppercase;
-}
-
-.yellow_line{
-    display: inline-block;
-    width: 292px;
-    height: 7px;
-    background: #F9BF3B;
-    margin-bottom:17px;
-    margin: 0 auto;
-}
-
-.waiting{
-    display: flex;
-    justify-content: space-between;
-}
-
-.waiting div{
-    font-weight: 300;
-    font-size: 15px;
-    color: #4A4A4A;
-    padding-top: 26px;
-    text-align: center;
-}
-
-.waiting p{
-    padding-top: 26px;
-}
-
-.two_web{
-    font-size: 23px;
-    line-height: 20px;
-}
-
-.optimization{
-    background: url(img/backgrounds/woman_bg.png) left no-repeat;
-}
-.op_inner{
-    width: 1379px;
-    height: 502px;
-}
-
-.op_text{
-    width: 750px;
-    margin: 108px auto 72px;
-}
-
-.op_tittle{
-    text-transform: uppercase;
-    font-size: 30px;
-    color: #299CBD;
-    font-weight: 900;
-}
-
-.op_text p{
-    font-size: 17px;
-    color: #4A4A4A;
-    line-height: 27px;
-    padding: 5px;
-}
-
-.op_rm{
-    font-weight: bold;
-}
-
-.finish{
-    min-height: 450px;
-    background: url(img/backgrounds/second_bg.png) center center/cover no-repeat;
-}
-
-.fh_element{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.fh_tittle{
-    margin: 86px auto 18px auto;
-    font-size: 30px;
-    color: #EFEFEF;
-    font-weight: normal;
-    text-transform: uppercase;
-    font-weight: normal;
-}
-
-.fh_inner{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-
-.fh_elements{
-    width: 100%;
-    margin-top: 39px;
-    display:flex;
-    justify-content: space-evenly;
-
-
-}
-
-.element{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 234px;
-}
-
-.element p{
-    margin-top: 24.5px;
-    font-size: 17px;
-    color: #EFEFEF;
-    font-weight: 300;
-    text-align: center;
-}
-
-.circle{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    border-radius: 50%;
-    background: #B4E2FF;
-    width: 118px;
-    height: 118px;
-}
-
-.gift{
-    width: 1922px;
-    height: 631px;
-    background: #EFEFEF;
-}
-
-.gf_tittle{
     display: flex;
     justify-content: center;
-    padding:85px 0 45px 0;
+    margin: 170px 0 30px;
+    font-size: 60px;
+    font-weight: 600;
 }
 
-.gf_text{
-    text-align: center;
-    font-size: 30px;
-    line-height: 43px;
-    color: #252525;
+.main_inner p {
+    font-size: 22px;
 }
 
-.first_veb{
-    width: 1922px;
-}
-
-.fv_inner{
+.main_button{
+    margin: 110px 0 100px;
     display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-top: 81px;
 }
 
-.p_1{
-    padding: 36px ;
-    font-size: 30px;
-    font-weight: normal;
+.main_button a{
+    color: #FFF;
+    padding-top:20px;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #FFF;
+    width: 220px;
     text-transform: uppercase;
+    margin-right: 25px;
 }
 
-.p_3{
-    padding-bottom: 52.5px;
-    padding-top: 24.5px;
-    font-size: 20px;
-    color: #4A4A4A;
-}
-
-.foot_inner{
-    padding: 57px;
+.main_inner img{
     display: flex;
-    justify-content: center;
-    width: 1922px;
-    height: 169px;
-    background: #1A1A1A;
-    text-align: center;
 }
 
-.foot_text{
-    font-weight: 300;
-    color: #888888;
-    font-size: 15px;
-    line-height: 21px;
+button{
+    width: 220px;
+    height: 65px;
+    text-transform: uppercase;
+    margin-right: 25px;
+    background: #00897B;
+    border: none;
+    color: #FFF;
 }
 
-.foot_text a{
-    color: #888888;
-}
+/*Мейн конец*/
