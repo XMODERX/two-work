@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
-/*Первый экран*/
+
 .head{
     padding: 38px 0 61px 0;
     min-height: 802px;
@@ -93,7 +93,6 @@ button{
     display: block;
     margin: 4.49px auto;
 }
-/*линии по бокам*/
 
 .main_line{
     display: flex;
@@ -107,11 +106,7 @@ button{
     background: #fff;
     margin-top: 60px;
 }
-/*линии по бокам*/
 
-/*Первый экран конец*/
-
-/*Мейн контейнер*/
 .main{
     background-color: #EFEFEF;
 }
@@ -155,9 +150,12 @@ button{
 .waiting p{
     padding-top: 26px;
 }
-/*Мейн контейнер конец*/
 
-/*Что такое оптимизация*/
+.two_web{
+    font-size: 23px;
+    line-height: 20px;
+}
+
 .optimization{
     background: url(img/backgrounds/woman_bg.png) left no-repeat;
 }
@@ -188,9 +186,6 @@ button{
 .op_rm{
     font-weight: bold;
 }
-/*Что такое оптимизация конец*/
-
-/*ВОТ ЭТО НЕ ПАШЕТ*/
 
 .finish{
     min-height: 450px;
@@ -252,10 +247,6 @@ button{
     height: 118px;
 }
 
-/*ВОТ ЭТО НЕ ПАШЕТ*/
-
-/*Подарок*/
-
 .gift{
     width: 1922px;
     height: 631px;
@@ -269,16 +260,11 @@ button{
 }
 
 .gf_text{
-    width: 1161px;
-    height: 113px;
     text-align: center;
     font-size: 30px;
     line-height: 43px;
-    font-weight: normal;
+    color: #252525;
 }
-/*Подарок конец*/
-
-/*Первый вебинар*/
 
 .first_veb{
     width: 1922px;
@@ -305,11 +291,7 @@ button{
     color: #4A4A4A;
 }
 
-/*Первый вебинар конец*/
-
-/*Футер*/
-
-.foot_inner {
+.foot_inner{
     padding: 57px;
     display: flex;
     justify-content: center;
@@ -320,13 +302,12 @@ button{
 }
 
 .foot_text{
+    font-weight: 300;
     color: #888888;
     font-size: 15px;
     line-height: 21px;
 }
 
-.foot_text a {
+.foot_text a{
     color: #888888;
 }
-
-/*Футер конец*/
