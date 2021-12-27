@@ -204,19 +204,20 @@ button{
 }
 
 .our_element:hover{
+    transition: 3s;
     background: #00897b;
-    box-shadow: #333;
 }
 
-.our_elements:hover .our_element {    
+.our_element:hover p{
     color: #FFF;
+
 }
 
-.our_elements:hover .element_but {
+.our_element:hover .element_but {
     border: 2px #fff solid;
 }
 
-.our_elements:hover .element_but a{
+.our_element:hover .element_but a{
     color: #FFF;
 }
 
