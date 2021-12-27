@@ -7,6 +7,7 @@ a{
     color: black;
 }
 /*Хедер*/
+
 body{
     font-family: 'Open Sans';
 }
@@ -57,6 +58,7 @@ nav ul li{
 /*Хедер конец*/
 
 /*Мейн*/
+
 .main{
     height: 640px;
     background: url(img/backgrounds/main_bg.png) center center / cover no-repeat;
@@ -80,33 +82,30 @@ nav ul li{
 }
 
 .main_button{
+    width: 460px;
     margin: 110px 0 100px;
     display: flex;
+    justify-content: space-between;
 }
 
 .main_button a{
     color: #FFF;
     padding-top:20px;
-    text-align: center;
-    text-decoration: none;
+    display: flex;
+    justify-content: center;
     border: 2px solid #FFF;
     width: 220px;
     text-transform: uppercase;
-    margin-right: 25px;
+    height: 40px;
+}
+
+.main_button a:hover{
+    border: none;
+    background: #00897b;
 }
 
 .main_inner img{
     display: flex;
-}
-
-button{
-    width: 220px;
-    height: 65px;
-    text-transform: uppercase;
-    margin-right: 25px;
-    background: #00897B;
-    border: none;
-    color: #FFF;
 }
 
 /*Мейн конец*/
@@ -160,6 +159,7 @@ button{
 /*About_us конец*/
 
 /*Sevices начало*/
+
 .servic{
     display: flex;
     max-height: 1400px;
@@ -184,13 +184,18 @@ button{
 }
 
 .our_img{
+    width: 60px;
+    height: 60px;
     display: flex;
     justify-content: center;
 }
 
-.our_img img{
-    width: 50px;
-    height: 50px;
+.our_img{
+    background: url(img/min_img/smartphone.png) center center / cover no-repeat;
+}
+
+.our_element:hover .our_img{
+    background-image:url(img/min_img/smartphone_white.png);
 }
 
 .element_but {
@@ -204,7 +209,7 @@ button{
 }
 
 .our_element:hover{
-    transition: 3s;
+    transition: 1s;
     background: #00897b;
 }
 
@@ -232,3 +237,77 @@ button{
 }
 
 /*Sevices конец*/
+
+/*latest works начало*/
+
+.lw_inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lw_button {
+    width: 700px;
+    display:flex;
+    margin-bottom: 100px;
+    justify-content: space-around;
+}
+
+.lw_button a:hover {
+    background-color: #00897b;
+    color: #FFF;
+}
+
+.lw_button a{
+    padding:15px 15px;
+    border: 2px solid #00897b;
+    text-transform: uppercase;
+}
+
+.lw_elements{
+    display: flex;
+    flex-direction: column;
+    height:650px;
+    justify-content: space-around;
+}
+
+.lwes_elements{
+    display: flex;
+    justify-content: space-around;
+    width: 960px;
+}
+
+#watch{
+    background: url(img/min_img/эплдроч.jpg) center center / cover no-repeat;
+}
+
+#condom{
+    background: url(img/min_img/презик.png) center center / cover no-repeat;
+}
+
+#pants{
+    background: url(img/min_img/труселя.png) center center / cover no-repeat;
+}
+
+#nasway{
+    background: url(img/min_img/нас.png) center center / cover no-repeat;
+}
+
+#vine{
+    background: url(img/min_img/винишкотян.png) center center / cover no-repeat ;
+}
+
+#back{
+    background: url(img/min_img/бичпакет.png)  center center / cover no-repeat;
+}
+
+#watch, #condom, #pants, #nasway, #vine, #back{
+    width: 300px;
+    height: 300px;
+}
+
+.lw_element:hover {
+    background: rgba(0, 0, 0, 0.4) ;
+}
+
+/*latest works конец*/
