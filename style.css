@@ -12,6 +12,7 @@ a{
 
 body{
     font-family: 'Open Sans';
+    font-weight: 600;
 }
 
 .container{
@@ -164,7 +165,6 @@ nav ul li{
 
 .servic{
     display: flex;
-    max-height: 1400px;
     background-color: #E4FDF9;
 }
 
@@ -345,3 +345,111 @@ nav ul li{
     cursor: pointer;
 }
 /*latest works конец*/
+
+/*Price_plan начало*/
+
+.pric_plan{
+    display: flex;
+    background: #eee;
+    min-height: 1140px;
+}
+
+.pric_elements{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pc_element{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 666px;
+    width: 370px;
+    background-color: #FFF;
+}
+
+.pc_element:hover, .lw_element:hover, .our_element:hover{
+    box-shadow: 0 0 10px 5px rgb(173, 172, 172);
+}
+
+.divider{
+    position:absolute;
+    width: 100%;
+    height: 200px;
+    background-color: #3949ab;
+    transform: skewY(-6deg);
+    transform-origin: bottom left;
+}
+
+.d1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 200px;
+    color: #fff;
+    font-size: 25px;
+
+}
+
+.dp{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 250px;
+}
+
+.dp p{
+    border-bottom: 1px solid silver;
+    width: 180px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.pc_button{
+    display: flex;
+    width: 220px;
+    margin-bottom: 50px;
+}
+
+.pc_button:hover a{
+    color: #FFF;
+    background: #00897b;
+    border: none;
+}
+
+.pc_button a{
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    width: 220px;
+    height: 40px;
+    padding-top:20px;
+}
+
+.upper{
+    text-transform: uppercase;
+}
+
+.num{
+    font-size: 50px;
+}
+
+.num, .sup, .sub, .d1 h2 {
+    font-weight: 400;
+}  
+
+.sup{
+    font-size: 20px;
+}
+
+.sub{
+    font-size: 17px;
+}
+
+/*Price_plan конец*/
