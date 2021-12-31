@@ -249,10 +249,15 @@ nav ul li{
 }
 
 .lw_button{
-    width: 700px;
+    width: 688px;
     display:flex;
     margin-bottom: 100px;
-    justify-content: space-evenly;
+    justify-content: space-between;
+}
+
+.view{
+    display: flex;
+    justify-content: center;
 }
 
 .lw_button a:hover{
@@ -261,9 +266,9 @@ nav ul li{
 }
 
 .lw_button a{
-    padding:15px 15px;
     border: 2px solid #00897b;
     text-transform: uppercase;
+    padding: 15px 35px;
 }
 
 .lw_elements{
@@ -453,3 +458,74 @@ nav ul li{
 }
 
 /*Price_plan конец*/
+
+/*Member начало*/
+
+.team_member{
+    text-align: center;
+    min-height: 1090px;
+}
+
+.member_in_el{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.member_elements{
+    display: flex;
+    justify-content: space-evenly;
+    width: 1170px;
+}
+
+.mem_element{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 370px;
+}
+
+.mem_img img{
+    height: 320px;
+    width: 370px;
+}
+
+.mem_text{
+    height: 60px;
+}
+
+.mem_media{
+    display: flex;
+    width: 280px;
+    justify-content: space-evenly;
+}
+
+.mem_media img{
+    width: 50px;
+    height: 50px;
+}
+
+.el_em{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    width: 80px;
+    min-height: 80px;
+}
+
+#el_1{
+    background: #3949ab;
+}
+
+.elipse{
+    background:#00897b;
+    display: flex;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+/*Member конец*/
