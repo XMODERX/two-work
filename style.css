@@ -529,3 +529,83 @@ nav ul li{
 }
 
 /*Member конец*/
+
+/*Blog начало*/
+
+.blog{
+    display: flex;
+    background: #e4fdf9;
+    min-height: 1880px;
+}
+
+.blog_elements{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bl_element{
+    display: flex;
+    justify-content: space-between;
+    width: 1163px;
+    text-align: start;
+}
+
+.bl_element img{
+    width: 570px;
+    height: 380px;
+}
+
+.bl_text{
+    margin: 40px 0 175px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 570px;
+} 
+
+.bl_m_text{
+    display: flex;
+}
+
+.bl_min img{
+    width: 16px;
+    height: 16px;
+}
+
+.calend{
+    width: 130px;
+}
+
+.file{
+    width: 150px;
+}
+
+.bl_text a{
+    font-size: 25px;
+}
+
+.bl_text a:hover{
+    color: #49a297;
+}
+
+.view_button{
+    width: 220px;
+    height: 50px;
+    margin: 115px 0 115px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #00897b;
+    text-transform: uppercase;
+}
+
+.view_button:hover{
+    background-color: #00897b;
+}
+
+.view_button:hover a{
+    color: #FFF;
+}
+
+/*Blog конец*/
